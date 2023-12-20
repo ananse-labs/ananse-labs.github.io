@@ -2901,7 +2901,7 @@ a.detail-link:hover span {
 }
 
 .staff-member .overlay .teacher-quote {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 300;
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
