@@ -3199,7 +3199,7 @@ a.video-play-icon-without-bip:hover {
 .single-promo-block:after {
     z-index: 1;
     top: 100%;
-    background-image: linear-gradient(75deg, rgba(93, 78, 230, 0.85) 10%, rgba(19, 13, 65, 0.85));
+    background-image: linear-gradient(75deg, rgb(223, 220, 247) 10%, rgba(233, 233, 236, 0.85));
 }
 
 .single-promo-block>* {
@@ -3207,7 +3207,7 @@ a.video-play-icon-without-bip:hover {
     z-index: 3;
 }
 
-@media screen and (min-width: 1367px), screen and (any-hover: hover) and (min-width: 1200px), not all, not all, not all {
+/* @media screen and (min-width: 1367px), screen and (any-hover: hover) and (min-width: 1200px), not all, not all, not all {
     .single-promo-block.hover-image:hover:before {
         opacity: 1;
         -webkit-transition: all 0.17s ease-out 0.18s;
@@ -3225,7 +3225,7 @@ a.video-play-icon-without-bip:hover {
     .single-promo-block.hover-image:hover .promo-block-content p {
         color: rgba(255, 255, 255, 0.75);
     }
-}
+} */
 
 .overlay-top-img {
     position: absolute;
