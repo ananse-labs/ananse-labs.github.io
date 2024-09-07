@@ -37,7 +37,7 @@ const ContactUs = () => {
 
     try {
       const baseUrl = "https://sentinel-api.ananse-labs.com/";
-    let data = new FormData();  
+      let data = new FormData();
       data.append("username", "email");
       data.append("password", "email123");
 
