@@ -188,14 +188,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/*about us section end*/}
-      {/*feature section start*/}
-      {/*feature section end*/}
-      {/*counter section start*/}
       <section
         className="call-to-action ptb-100"
         style={{
-          background: 'url("fonts/cta-bg.svg")no-repeat center center / cover'
+          background: 'url("/src/assets/fonts/cta-bg.svg")no-repeat center center / cover'
         }}
       >
         <div className="container">
