@@ -36,8 +36,8 @@ const ContactUs = () => {
     }
 
     try {
-      const baseUrl = "http://161.35.67.249:8080/";
-      let data = new FormData();
+      const baseUrl = "https://sentinel-api.ananse-labs.com/";
+    let data = new FormData();  
       data.append("username", "email");
       data.append("password", "email123");
 
