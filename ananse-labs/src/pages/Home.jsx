@@ -5,7 +5,7 @@ const Home = () => {
       <section
         className="hero-equal-height pt-165 pb-100"
         style={{
-          background: 'url("fonts/bg-shape.svg")no-repeat bottom center / cover'
+          background: 'url("/src/assets/fonts/bg-shape.svg")no-repeat bottom center / cover'
         }}
       >
         <div className="container">
@@ -26,7 +26,7 @@ const Home = () => {
             <div className="col-md-12 col-lg-6">
               <div className="img-wrap">
                 <img
-                  src="fonts/hero-single-img-3.svg"
+                  src="/src/assets/fonts/hero-single-img-3.svg"
                   alt="hero single"
                   className="custom-width img-fluid"
                 />
@@ -52,7 +52,7 @@ const Home = () => {
                     costly breakdowns &amp; reduce maintainance expenses with our
                     advanced AI-driven solutions.{" "}
                   </p>
-                  <a href="services.html" className="btn accent-solid-btn mt-3">
+                  <a href="/services" className="btn accent-solid-btn mt-3">
                     Learn More
                   </a>
                 </div>
@@ -71,7 +71,7 @@ const Home = () => {
                     business from financial threats and ensure seamless, secure
                     operations.{" "}
                   </p>
-                  <a href="about-us.html" className="btn secondary-solid-btn mt-3">
+                  <a href="/aboutus" className="btn secondary-solid-btn mt-3">
                     Learn More
                   </a>
                 </div>
@@ -88,7 +88,7 @@ const Home = () => {
             <div className="col-md-12 col-lg-6">
               <div className="about-img-wrap">
                 <img
-                  src="images/about-us-alt.jpg"
+                  src="/src/assets/images/about-us-alt.jpg"
                   alt="video"
                   className="img-fluid rounded shadow-sm"
                 />
